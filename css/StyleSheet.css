@@ -1,0 +1,681 @@
+body{
+    display: block;
+    background-color:beige;
+}
+
+header{
+background-color: gray;
+    margin-bottom: 30px;
+    border-bottom: solid 1px black;
+    box-shadow: 0 1px 7px black;
+    -webkit-box-shadow: 0 1px 7px black;
+    padding: 5px;
+    text-align: center;
+}
+
+header h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+header h1 img{
+    width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+header h1 a{
+    text-decoration: none;
+    color: #000000;
+}
+
+header h1 a:hover{
+    color: blue;
+}
+
+nav{
+    display: flex;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+    margin-top: -27px;
+    margin-bottom: 10px;
+}
+
+nav ul{
+    list-style-type:none;
+    margin-top: 0;
+    margin-bottom:0 ;
+    padding-left: 0;
+    font-size: 0;
+}
+nav li{
+    display: inline;
+    font-size: 16px;
+    border-right:solid 1px whitesmoke ;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+nav a{
+    color:white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: blue;
+    text-decoration:underline;
+}
+
+h1{
+    font-size: 38px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p{
+    line-height: 1.5;
+}
+
+article{
+    background-color: whitesmoke;
+    width:900px ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    border: solid 1px #aaaaaa;
+    border-radius: 20px;
+    padding: 30px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-shadow: 1px 1px 3px #aaaaaa;
+    -webkit-box-shadow: 1px 1px 3px #aaaaaa;
+    overflow: hidden;
+}
+
+a img{
+    border: none;
+    float: left;
+    margin-right: 10px;
+}
+
+footer{
+    width:900px ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    clear: both;
+}
+
+#PageTop{
+    background-color: aliceblue;
+    border: solid 1px gray;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 0px 0px 30px;
+}
+
+#PageTop h1{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#PageTop p{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#container{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content{
+    width: 600px;
+    float:left;
+}
+
+#content h1{
+    width: 600px;
+    margin-left: 10px;
+}
+
+#content h2{
+    border: solid 1px gray;
+    border-left: none;
+    margin: 0 0 0 0;
+    width: 600px;
+    padding-left: 10px;
+}
+
+#content li{
+    padding-left: 10px;
+}
+
+#content time{
+    background-color: burlywood;
+    border: gray;
+    border-radius: 1px;
+    box-sizing: border-box;
+    box-shadow: 0 1px 5px gray;
+    -webkit-box-shadow: 0 1px 5px gray;
+}
+
+#content article{
+    margin-bottom: 20px;
+    width: auto;
+    padding: 20px;
+}
+
+#content article:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.article-flex {
+    display: flex;
+    gap: 0px;
+    align-items: flex-start;
+}
+
+.article-flex img {
+    width: 150px;
+    flex-shrink: 0;
+    margin: 0;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-content h1 {
+    background-color: whitesmoke;
+    border: solid 1px gray;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 0 0 5px 0;
+    width: 370px;
+}
+
+#content article img{
+    width: 150px;
+    flex-shrink: 0;
+    margin-top: 10px;
+}
+
+#content ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#content a{
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+#content article a h2:hover{
+    color: blue;
+}
+
+#toIndex a{
+    margin-left: auto;
+    margin-right: 0;
+    text-align: center;
+    background-color: whitesmoke;
+    width: 130px;
+    border: solid 1px #aaaaaa;
+    border-radius: 10px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-shadow: 1px 1px 3px #aaaaaa;
+    -webkit-box-shadow: 1px 1px 3px #aaaaaa;
+    padding: 0;
+}
+
+#toIndex h3{
+    margin: 5px;
+}
+
+#content a:hover h3{
+    color: blue;
+}
+
+#menu{
+    width: 270px;
+    float: right;
+    text-align: center;
+}
+
+#menu ul{
+    text-align: left;
+}
+
+#menu aside{
+    background-color: #ffffff;
+    border: solid 1px #aaaaaa;
+    padding: 20px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    box-shadow: 1px 1px 3px #aaaaaa;
+    -webkit-box-shadow:1px 1px 3px #aaaaaa;
+    border-radius: 20px;
+}
+
+#menu ul a:hover{
+    color: blue;
+}
+
+.game{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.game article{
+    width: 1050px;
+    height: auto;
+    padding: 5px 30px 30px 30px;
+}
+
+.game iframe{
+    background-color: black;
+    width: 980px;
+    height: 650px;
+    border: solid 1px white;
+    border-radius: 20px;
+}
+
+.game h1{
+    font-size: 38px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.game table{
+    border-collapse: collapse;
+    border-radius: 10px;
+    border: solid 2px black;
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    letter-spacing: 1px;
+}
+
+.game th, .game td{
+    border: solid 1px black;
+    padding: 8px 10px;
+}
+
+.game th{
+    width: 100px;
+    text-align: left;
+}
+
+.game td{
+    text-align: left;
+}
+
+#works-link article:hover{
+    transform: scale(1.05);
+}
+
+#works-link a{
+    text-decoration: none;
+    margin-top: 50px;
+}
+
+#works-link h2{
+    color: black;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+#works-link article:hover h2{
+    text-decoration: underline;
+    color: blue;
+}
+
+footer a:hover p{
+    text-decoration: underline;
+    color: blue;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* 以下は謎解きコンテンツ用 */
+#room_container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    padding-top: 20px; 
+}
+
+#room1 {
+    max-width: 100%;
+    position: relative;
+}
+
+#room1 img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#room2 {
+    max-width: 100%;
+    position: relative;
+}
+
+#room2 img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#room3 {
+    max-width: 100%;
+    position: relative;
+}
+
+#room3 img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* 基本非表示 */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: flex-start;
+    z-index: 999;
+}
+
+/* モーダルの中身 */
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: flex;
+    margin-top: 100px;
+}
+
+.modal-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* 閉じるボタンの見た目 */
+.close-button {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 8px 16px;
+    background-color: #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+/* クリック範囲 */
+.clickable {
+    position: absolute;
+    cursor: pointer;
+}
+
+#room1 .clickable {
+    width: 6%;
+    height: 9.5%;
+}
+
+#room2 .clickable {
+    width: 12.1%;
+    height: 33%;
+}
+
+#room3 .clickable {
+    width: 6.7%;
+    height: 10.3%;
+}
+
+/* 各アイテムのクリックエリアの位置 */
+#door {
+    top: 39%;
+    left: 21%;
+}
+
+#book {
+    top: 46%;
+    left: 74.5%;
+}
+
+#box {
+    top: 62%;
+    left: 48.4%;
+}
+
+#pazle {
+    top: 25.8%;
+    left: 41%; 
+}
+
+#door3.clickable {
+    width: 12%;
+    height: 6.5%;
+    top: 44.5%;
+    left: 28.8%; 
+}
+
+#clock {
+    top: 64.2%;
+    left: 60.5%; 
+}
+
+#hint {
+    top: 65%;
+    left: 72.1%; 
+}
+
+/* パスワード入力 */
+#input-area {
+    margin-top: 12px;
+}
+
+#box-answer {
+    padding: 6px;
+    font-size: 16px;
+    width: 120px;
+    text-align: center;
+}
+
+#box-enter {
+    padding: 6px 12px;
+    margin-left: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#save-key-btn button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    font-size: 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#doorDropZone.highlight {
+    border: 2px dashed #00ccff;
+    background-color: rgba(0, 200, 255, 0.1);
+}
+
+.next-button{
+    display: inline-block;
+    margin-top: 12px;
+    padding: 8px 16px;
+    background-color: #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+#modal_pazle .modal-content {
+    width: 1000px;
+    height: 1400px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: scale(0.4);
+    transform-origin: top center;
+}
+
+#modal_door2_Open .modal-content {
+    width: 500px;        
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.puzzle-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px 0;
+    justify-content: center;
+    width: 1000px;
+    height: 900px;
+    position: relative;
+    border: 1px dashed #999;
+}
+
+.puzzle-container img.draggable {
+    position: absolute;
+    cursor: grab;
+    user-select: none;
+}
+
+input#puzzle-answer {
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 50px;
+}
+
+button#puzzle-enter {
+    margin-top: 5px;
+    padding: 5px 10px;
+    font-size: 40px;
+}
+
+.draggable {
+    position: absolute;
+    user-select: none;
+    transition: none;
+}
+
+#modal_clock .modal-content {
+    position: relative;
+    width: 500px;        
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#modal_hint .modal-content {
+    position: relative;
+    width: 500px;        
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#modal_door3 .modal-content {
+    position: relative;
+    width: 500px;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: scale(0.7);
+    transform-origin: top center;
+}
+
+
+#clock-overlay {
+    width: 400px;
+    height: 170px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    text-shadow: 2px 2px 4px black;
+    pointer-events: none;
+    z-index: 2;
+}
+
+#date-text {
+    height: 75px;
+    font-size: 40px;
+    text-align: center;
+}
+
+#time-text {
+    height: 75px;
+    font-size: 40px;
+    text-align: center;
+}
+
+input#passwordInput {
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 30px;
+}
+
+button#submitPassword {
+    margin-top: 5px;
+    padding: 5px 10px;
+    font-size: 30px;
+}

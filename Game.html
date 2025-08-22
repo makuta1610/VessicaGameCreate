@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html
+    lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            株式会社ヴェシカ・ゲーム制作同好会
+        </title>
+        <link rel = "stylesheet" href="css/StyleSheet.css">
+    </head>
+
+    <body>
+        <header>
+            <h1><a href="index.html"><img src="img/title.png"></a></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="List.html">List</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="game" id = "game-container">
+            
+            <article>
+                <h1 id = "game-title"></h1>
+                <iframe id = "game-iframe" allowfullscreen></iframe>
+
+                <script>
+                function goFullscreen() {
+                    const iframe = document.getElementById("game-iframe");
+                    if (iframe.requestFullscreen) {
+                    iframe.requestFullscreen();
+                    } else if (iframe.webkitRequestFullscreen) {
+                    iframe.webkitRequestFullscreen(); // Safari
+                    } else if (iframe.msRequestFullscreen) {
+                    iframe.msRequestFullscreen(); // IE/Edge
+                    } else {
+                    alert("このブラウザではフルスクリーンをサポートしていません。");
+                    }
+                }
+                </script>
+            </article>
+
+            <article>
+                <h2>制作物説明</h2>
+                <table>
+                    <tr>
+                        <th><p>概要</p></th>
+                        <td><p id = "discript"></p></td>
+                    </tr>
+                    <tr>
+                        <th><p>操作方法</p></th>
+                        <td><p id = "operation"></p></td>
+                    </tr>
+                    <tr>
+                        <th><p>その他</p></th>
+                        <td><p id = "other"></p></td>
+                    </tr>
+                    <tr>
+                        <th><p>作成者</p></th>
+                        <td><p id = "creater"></p></td>
+                    </tr>
+                    <tr>
+                        <th><p>バージョン履歴</p></th>
+                        <td><p id = "version"></p></td>
+                    </tr>
+                </table>
+            </article>
+
+        </div>
+
+
+
+        <footer>
+            <a href="https://vessica.visulia-g.jp/">
+                <p>株式会社ヴェシカ</p>
+            </a>
+        </footer>
+    </body>
+
+  <script src="js/works.js"></script>
+  <script src="js/worksDetail.js"></script>
+  <script src="js/render.js"></script>
+
+</html>
