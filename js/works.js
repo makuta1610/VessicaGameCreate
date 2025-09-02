@@ -53,7 +53,7 @@ const works = [
     operation: "クリックで駒の移動先を選択",
     other: `二歩は禁止していますが、打ち歩詰めや先日手などは禁止できていません。
             Top画面のRenameからプレイヤー名を変更できます`,
-    iframeSrc: "https://itch.io/embed-upload/14710592?color=333333",
+    iframeSrc: "https://itch.io/embed-upload/14851935?color=333333",
     version: `2025/8/21 ver1.00アップロード
               2025/9/2 ver2.00アップロード
               教師あり学習済みAIとの対局モードを実装`
