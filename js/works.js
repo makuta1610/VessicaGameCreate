@@ -58,4 +58,27 @@ const works = [
               2025/9/2 ver2.00アップロード
               教師あり学習済みAIとの対局モードを実装`
   },
+  {
+    key:"Janken_neko",
+    title: "ねことジャンケン",
+    image: "img/neko_janken.png",
+    link: "Game.html?key=Janken_neko",
+    date: "2025-09-13",
+    creater: "宮川",
+    genre: "脱出ゲーム？",
+    summary: "ねことジャンケンしよう！",
+    discript:`あなたは気が付くとドアや窓のない部屋にいました
+              部屋主の気が済むまでジャンケンをすれば、出してもらえる【かも】しれません`,
+    operation: `・F4：画面サイズ変更
+                ・F5：フレームスキップレベル変更
+                ・F12：タイトル画面に戻る
+                ・PrintScreen：スクリーンショット
+                ・十字キー：移動
+                ・Enter：決定`,
+    other: `環境：Windows
+            リンク先でダウンロード要`,
+    iframeSrc: "iFrameLink.html",
+    version: `2025/9/13 ver1.00アップロード`,
+    exURL:"https://freegame-mugen.jp/puzzle/game_13984.html"
+  },
 ];
