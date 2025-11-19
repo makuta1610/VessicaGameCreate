@@ -81,4 +81,20 @@ const works = [
     version: `2025/9/13 ver1.00アップロード`,
     exURL:"https://freegame-mugen.jp/puzzle/game_13984.html"
   },
+  {
+    key: "suika",
+    title: "ヒロトゲーム",
+    image: "img/Hiroto.png",
+    link: "Game.html?key=suika",
+    date: "2025-11-19",
+    creater: "幕田",
+    genre: "落ちゲー",
+    summary: "スイカゲームの偽物です",
+    discript:`顔を落として、より大きな顔を作ろう`,
+    operation: `矢印キーで横移動
+                Aキーで落下`,
+    other: `ルールはスイカゲームとほぼ一緒`,
+    iframeSrc: "https://itch.io/embed-upload/15585505?color=333333",
+    version: `2025/11/19 ver1.00アップロード`
+  },
 ];
